@@ -6,7 +6,6 @@ const Topbar = () => {
   return (
       <div className='top'>
           <div className='topLeft'>
-              
               <i className="topIcon fa-brands fa-square-facebook"></i>
               <i className="topIcon fa-brands fa-square-twitter"></i>
               <i className="topIcon fa-brands fa-square-pinterest"></i>
@@ -24,7 +23,7 @@ const Topbar = () => {
           <div className='topRight'>
               <img
                   className='topImg'
-                  src="../../assets/dm.jpg"
+                  src='./773371.jpg'
                   alt='' 
               />
               <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>

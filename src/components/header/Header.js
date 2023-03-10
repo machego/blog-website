@@ -8,8 +8,8 @@ const Header = () => {
               <span className='headerTitleLg'>Blog</span>
           </div>
           <img
-              className='header-img'
-              src='../../assets/main.jpg'
+              className='headerImg'
+              src='./main.jpg'
               alt='' 
           />
           

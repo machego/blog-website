@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Josefin;
-    src: url(../../JosefinSans.ttf);
+    font-family: 'Josefin';
+    src: url('../../JosefinSans.ttf');
 }
 
 .top {
@@ -11,7 +11,8 @@
     top: 0;
     display: flex;
     align-items: center;
-    font-family: 'Josefin';
+    font-family: 'Josefin', sans-serif;
+    z-index: 999;
 }
 
 .topLeft, .topRight {
