@@ -5,9 +5,9 @@ const Write = () => {
       <div className='write'>
           <img
               className='writeImage'
-              src=''
+              src='./2325446.jpg'
               alt=''
-          >
+          />
           <form className='writeForm'>
               <div className='writeFormGroup'>
                   <label htmlFor='fileInput'>
@@ -16,14 +16,13 @@ const Write = () => {
                       <input
                           type='file'
                           id='fileInput'
-                          style={ { display: 'none' } } 
-                          
+                          style={ { display: 'none' } }   
                       />
                       <input 
                           type='text'
                           placeholder='Title'
                           className='writeInput'
-                          autoFocus='{true}' 
+                          autoFocus={true} 
                       />
               </div>
               <div className='writeFormGroup'>
@@ -31,12 +30,9 @@ const Write = () => {
                       placeholder='Tell your story...'
                       type='text'
                       className='writeInput writeText'
-                      autoFocus={true}
-                  />
+                  ></textarea>
               </div>
-              <button className='writeSubmit' type='submit'>
-                Publish
-              </button>
+              <button className='writeSubmit'>Publish</button>
             </form>
                 
         </div>
