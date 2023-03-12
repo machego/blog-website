@@ -2,7 +2,7 @@ import './post.css'
 
 const Post = () => {
   return (
-      <div clssName='post'>
+      <div className='post'>
           <img 
               className='postImg'
               src='./1155577.jpg'

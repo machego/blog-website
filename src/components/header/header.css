@@ -12,6 +12,7 @@
 .headerTitles {
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-family: 'Lora', sans-serif;
     color: #444;
 }
